@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department of CSE</title>
+    <style>
+        header {
+            background-color: #0c0a08;
+            color: #fff;
+            text-align: center;
+            padding: 0.9em;
+            position: relative; 
+        }
+        #logo {
+            position: absolute; 
+            top: 0;
+            left: 0;
+            max-height: 50px; 
+            margin: 10px; 
+        }
+        section {
+            margin: 20px;
+            border: 1px solid #3498db;
+            border-radius: 10px;
+            padding: 10px;
+            background-color: #fff;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 0.1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body style="font-family: 'Arial', sans-serif; margin: 0; padding: 0; background-color: #EE7214; color: #333;">
+    <header>
+        <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/MVJCE_-_New_Logo.png/1200px-MVJCE_-_New_Logo.png" alt="College Logo"> 
+        <h1 style="margin: 0;">Department of Computer Science and Engineering</h1>
+    </header>
+
+    <section id="overview">
+        <h2>Overview</h2>
+        <p>Welcome to the Department of Computer Science and Engineering at MVJ college of engineering. We are dedicated to providing quality education and fostering innovation in the field of computer science.</p>
+    </section>
+
+    <section id="programs">
+        <h2>Programs Offered</h2>
+        <ul style="list-style-type: none; padding: 0;">
+            <li>Bachelor of Engineering in Computer Science</li>
+            <li>Master of Science in Computer Science</li>
+            <li>Ph.D. in Computer Science</li>
+        </ul>
+    </section>
+
+    <section id="facilities">
+        <h2>Facilities</h2>
+        <p>Our department is equipped with state-of-the-art laboratories, a dedicated faculty, and a supportive learning environment to help students thrive in their academic journey.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Department of CSE, MVJ college of engineering</p>
+    </footer>
+</body>
+</html>
